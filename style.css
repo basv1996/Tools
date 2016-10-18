@@ -5,12 +5,11 @@ body {
 #header {
     padding: 5%;
     width: 100%;
-    background-color:rgb(212,103,25);  
+    background-color:chartreuse;  
 }
 
 #header img {
-    width: 100%;
-    
+    width: 100%; 
 }
 /* style for the side navigation bar*/
 .sidenav {
@@ -47,7 +46,20 @@ body {
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (min-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+@media screen and (min-width: 841px) {
+    #header {
+    padding: 5%;
+    width: 100vw;
+        height: 10%;
+    background-color:rgb(212,103,25);  
+}
+    #header img {
+        width: 100%;
+        padding: 0 15% 0 15%;
+        margin: -5% 0}   
 }
