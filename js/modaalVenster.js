@@ -15,7 +15,7 @@ var DePopUP = (function() {
         },
         openen: function(instellingen) {
             $Content.append(instellingen.inhoud, $Kruisje);
-            $Content.css({width: instellingen.breedte+'px' || 'auto', height: instellingen.hoogte+'px' || 'auto'})
+            $Content.css({width: instellingen.breedte+'%' || 'auto', height: instellingen.hoogte+'%' || 'auto'})
                 .on('click', function(e){
             e.stopPropagation();
             });

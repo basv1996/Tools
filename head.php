@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 <link rel="stylesheet" href="style.css"/>
 <meta charset="UTF-8">
@@ -10,20 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script src="js/modaalVenster.js"></script>
+    <script src="js/modaalStart.js"></script>
+    <link rel="stylesheet" href="ModaalCss/style.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<script src="script.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <title>T.O.O.L.S Coaching</title>
-</head>
-<body>
- <script src="script.js"></script>
- <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="blog.html">Blog</a>
-  <a href="about.html">About</a>
-</div>
-
-<div id="header">
-<h1>T.O.O.L.S Coaching</h1>
-    </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-    </body>
-</html>
+    </head>

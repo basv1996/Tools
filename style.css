@@ -3,23 +3,38 @@ body {
 }
 
 #header {
-    padding: 5%;
-    width: 100%;
-    background-color:chartreuse;  
+    padding: 15px 0; 
+    background: -moz-linear-gradient(top, #b39573, #9ba696, #2e7d60);
+    background: -webkit-linear-gradient(top, #2e7d60, #9ba696, #b39573);
+    background: -o-linear-gradient(top, #2e7d60, #9ba696, #b39573);
+    background: -ms-linear-gradient(top, #2e7d60, #9ba696, #b39573);
+    background: linear-gradient(top, #2e7d60, #9ba696, #b39573);
+    opacity: 0.7;
+}  
+
+/* slideshow */
+.slider img {
+    margin: 0 auto;
+     width: 90%;
 }
 
 #header img {
     width: 100%; 
 }
 /* style for the side navigation bar*/
+#hamburgermenu {
+    font-size:40px;
+    cursor: pointer;
+    padding-left: 2%;}
+
 .sidenav {
     height: 100%;
     width: 0;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: RGB(33,255,255);
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -31,7 +46,7 @@ body {
     font-size: 25px;
     color: white;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -46,6 +61,46 @@ body {
     margin-left: 50px;
 }
 
+#wrapper p {
+    text-align: left;
+    padding: 0 5%;   
+}
+
+#tekst1, #tekst2, #tekst3, #tekst4 {
+    margin: 0 auto;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #000000;
+    cursor: auto;
+    
+}
+
+#herfst1 img, #herfst2 img, #herfst3 img, #herfst4 img {
+    width: 100%; 
+    opacity: 1;
+}
+
+/* Read More */
+#herfst1Thumb, #herfst2Thumb, #herfst3Thumb, #herfst4Thumb {
+    color: blue;
+    
+}
+
+footer {
+    background-color: darkgrey;
+    margin-top: 1%;
+    border-radius: 15px;
+    padding: 1% 5%;  
+}
+
+footer img {
+    width: 45%;
+    display: inline;
+    margin: 0 auto;
+}
+
 @media screen and (min-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -55,11 +110,24 @@ body {
     #header {
     padding: 5%;
     width: 100vw;
-        height: 10%;
-    background-color:rgb(212,103,25);  
+        height: 10%;  
 }
     #header img {
         width: 100%;
-        padding: 0 15% 0 15%;
-        margin: -5% 0}   
+        padding: 0 25%;
+        margin: -5% 0} 
+    
+    #herfst1 img, #herfst2 img, #herfst3 img, #herfst4 img {
+        width: 50%;
+    }
+    .slider img {
+     width: 50%;
+}
+    footer {
+        width: 80%;
+        margin: 5% auto 0;
+        height: 1%;        
+    }
+    footer img {
+        width: 15%;}
 }

@@ -6,18 +6,18 @@ $(document).ready( function() {
 
     
    $('#herfst1Thumb').on('click', function() {
-       DePopUP.openen({inhoud: herfst1Inhoud, breedte: 600});
+       DePopUP.openen({inhoud: herfst1Inhoud, breedte: 75});
    });
     
     $('#herfst2Thumb').on('click', function() {
-       DePopUP.openen({inhoud: herfst2Inhoud, breedte: 600});
+       DePopUP.openen({inhoud: herfst2Inhoud, breedte: 75});
    });
       
     $('#herfst3Thumb').on('click', function() {
-       DePopUP.openen({inhoud: herfst3Inhoud, breedte: 600});
+       DePopUP.openen({inhoud: herfst3Inhoud, breedte: 75});
    });  
     
     $('#herfst4Thumb').on('click', function() {
-       DePopUP.openen({inhoud: herfst4Inhoud, breedte: 600});
+       DePopUP.openen({inhoud: herfst4Inhoud, breedte: 75});
    });  
 });
